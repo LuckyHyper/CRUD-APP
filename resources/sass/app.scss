@@ -1,0 +1,21 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+td,th{
+    text-align: center;
+}
+button.btn-css{
+    margin: 2px 8%;
+}
+.title{
+    text-align: center;
+    font-size:x-large;
+    letter-spacing: 0.3em;
+
+}

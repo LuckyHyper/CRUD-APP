@@ -7,6 +7,11 @@ class Home extends Component {
         return (
             <AppContainer title="Student List">
                 <div class="table-responsive">
+
+                    <Link to={'add-student'} className="btn btn-dark  float-end"> Add Student</Link>
+                    <br></br>
+                    <br></br>
+
                     <table class="table">
                         <thead>
                             <tr>
@@ -26,19 +31,8 @@ class Home extends Component {
                                 <td>@mdmmmo</td>
                                 <td>@mdo</td>
                                 <td>
-                                    <button type="button" class="btn btn-info btn-css">Edit</button>
-                                    <button type="button" class="btn btn-dark btn-css">Delete</button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row">1</th>
-                                <td>Mark</td>
-                                <td>Otto</td>
-                                <td>@mdmmmo</td>
-                                <td>@mdo</td>
-                                <td>
-                                    <button type="button" class="btn btn-info btn-css">Edit</button>
-                                    <button type="button" class="btn btn-dark btn-css">Delete</button>
+                                    <Link to="/edit-student" type="button" class="btn btn-warning btn-css">Edit</Link>
+                                    <Link to="/edit-student" type="button" class="btn btn-secondary btn-css">Delete</Link>
                                 </td>
                             </tr>
 

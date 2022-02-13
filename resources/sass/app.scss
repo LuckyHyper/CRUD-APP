@@ -10,7 +10,7 @@
 td,th{
     text-align: center;
 }
-button.btn-css{
+.btn-css{
     margin: 2px 8%;
 }
 .title{
@@ -18,4 +18,13 @@ button.btn-css{
     font-size:x-large;
     letter-spacing: 0.3em;
 
+}
+.btn-back{
+
+    margin: 0.8rem auto;
+    display: flex;
+    justify-content: center;
+}
+a.back{
+    width:200px;
 }
